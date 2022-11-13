@@ -12,6 +12,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="navbar-links_container">
+          <p><a href="#Home">Home</a></p>
           <p><a href="#About">About</a></p>
           <p><a href="#UBCEA">UBC Esports Association</a></p>
           <p><a href="#Contact">Contact Us</a></p>
