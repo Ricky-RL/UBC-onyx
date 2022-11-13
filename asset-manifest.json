@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/UBC-onyx/static/css/main.90c8136c.css",
-    "main.js": "/UBC-onyx/static/js/main.21267a1f.js",
+    "main.css": "/UBC-onyx/static/css/main.90df662d.css",
+    "main.js": "/UBC-onyx/static/js/main.1a005dad.js",
     "static/js/787.a741ab00.chunk.js": "/UBC-onyx/static/js/787.a741ab00.chunk.js",
-    "static/media/ubcea_log.png": "/UBC-onyx/static/media/ubcea_log.060f8d2c6e47d1ea91ab.png",
+    "static/media/ubcea_logo.png": "/UBC-onyx/static/media/ubcea_logo.8e0c5fac4b7295b4d2a9.png",
     "index.html": "/UBC-onyx/index.html",
-    "main.90c8136c.css.map": "/UBC-onyx/static/css/main.90c8136c.css.map",
-    "main.21267a1f.js.map": "/UBC-onyx/static/js/main.21267a1f.js.map",
+    "main.90df662d.css.map": "/UBC-onyx/static/css/main.90df662d.css.map",
+    "main.1a005dad.js.map": "/UBC-onyx/static/js/main.1a005dad.js.map",
     "787.a741ab00.chunk.js.map": "/UBC-onyx/static/js/787.a741ab00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c8136c.css",
-    "static/js/main.21267a1f.js"
+    "static/css/main.90df662d.css",
+    "static/js/main.1a005dad.js"
   ]
 }
