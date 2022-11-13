@@ -1,13 +1,25 @@
-// import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <b>UBC ONYX </b>
-
+    <div>
+      <h1>UBC Onyx</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+// import logo from './logo.svg';
+// import './App.css';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <b>UBC ONYX </b>
+//       <b>Test</b>
+//     </div>
+//   );
+// }
+
+// export default App;
