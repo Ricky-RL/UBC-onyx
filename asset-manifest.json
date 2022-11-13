@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/UBC-onyx/static/css/main.a5466f82.css",
+    "main.css": "/UBC-onyx/static/css/main.3d0eb981.css",
     "main.js": "/UBC-onyx/static/js/main.b6399097.js",
     "static/js/787.a741ab00.chunk.js": "/UBC-onyx/static/js/787.a741ab00.chunk.js",
     "index.html": "/UBC-onyx/index.html",
-    "main.a5466f82.css.map": "/UBC-onyx/static/css/main.a5466f82.css.map",
+    "main.3d0eb981.css.map": "/UBC-onyx/static/css/main.3d0eb981.css.map",
     "main.b6399097.js.map": "/UBC-onyx/static/js/main.b6399097.js.map",
     "787.a741ab00.chunk.js.map": "/UBC-onyx/static/js/787.a741ab00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5466f82.css",
+    "static/css/main.3d0eb981.css",
     "static/js/main.b6399097.js"
   ]
 }
