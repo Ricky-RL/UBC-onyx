@@ -11,26 +11,35 @@ const App = () => {
         <Navbar />
       </div>
       <div className="profiles">
-        <Profile lane = "TOP"
-        char="profile_kayle"
-        ign="WINNABLEE"/>
+        <div className="child">
+          <Profile lane="TOP"
+            char="profile_kayle"
+            ign="WINNABLEE" />
+        </div>
 
-        <Profile lane="JUNGLE"
-        char="profile_graves"
-        ign="Chiv"/>
-        
-        <Profile lane="MID"
-        char="profile_zoe"
-        ign="Lexi8878"/>
-        
-        <Profile lane="ADC"
-        char="profile_jinx"
-        ign="R1 Chen"/>
+        <div className="child">
+          <Profile lane="JUNGLE"
+            char="profile_graves"
+            ign="Chiv" />
+        </div>
 
-<Profile lane="Support"
-        char="profile_soraka"
-        ign="GorillA"/>
+        <div className="child">
+          <Profile lane="MID"
+            char="profile_zoe"
+            ign="Lexi8878" />
+        </div>
 
+        <div className="child">
+          <Profile lane="ADC"
+            char="profile_jinx"
+            ign="R1 Chen" />
+        </div>
+
+        <div className="child">
+          <Profile lane="Support"
+            char="profile_soraka"
+            ign="GorillA" />
+        </div>
       </div>
 
     </div>

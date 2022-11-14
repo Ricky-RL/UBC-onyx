@@ -25,6 +25,11 @@ a {
   position: relative;
   /* top: -200px; */
 }
+
+.child {
+  /* flex: 100 100 20%;
+  margin: 5px; */
+}
 body {
   /* background: var(--color-bg) */
 
