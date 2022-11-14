@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { CTA, Brand, Navbar, Profile } from './components';
 import './App.css';
 
 const App = () => {
@@ -9,13 +9,30 @@ const App = () => {
     <div className="App">
       <div className="gradient__bg">
         <Navbar />
-        <Header />
       </div>
-      <Brand />
-      <Features />
-      <CTA />
-      <Blog />
-      <Footer />
+      <div className="profiles">
+        <Profile lane = "TOP"
+        char="profile_kayle"
+        ign="WINNABLEE"/>
+
+        <Profile lane="JUNGLE"
+        char="profile_graves"
+        ign="Chiv"/>
+        
+        <Profile lane="MID"
+        char="profile_zoe"
+        ign="Lexi8878"/>
+        
+        <Profile lane="ADC"
+        char="profile_jinx"
+        ign="R1 Chen"/>
+
+<Profile lane="Support"
+        char="profile_soraka"
+        ign="GorillA"/>
+
+      </div>
+
     </div>
   )
 }
