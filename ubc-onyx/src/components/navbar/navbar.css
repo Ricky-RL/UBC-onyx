@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    padding: 1rem 2rem;
 }
 
 .navbar-links {
@@ -30,8 +30,8 @@
 }
 
 .navbar-sign {
-    displaye: flex;
-    justify-contents: flex-end;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -44,6 +44,68 @@
     font-size:18px;
     line-height:25px;
     text-transform: capitalize;
+
     margin: 0 1rem;
     cursor: pointer;
+}
+
+.navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.navbar-menu svg {
+    cursor: pointer;
+}
+
+.navbar-menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    z-index: 1;
+    text-align: end;
+    background: #08172c;
+    padding:2rem;
+    position: absolute;
+    top:20px;
+    right:0;
+    margin-top: 1rem;
+    min-width: 180px;
+    border-radius: 15px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+    opacity: .9;
+}
+
+.navbar-menu-container p {
+    margin: 1 rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar-links_container {
+        display: none;
+    }
+    .navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        padding-top: 1.5rem;
+        padding-left:4rem;
+        padding-right: 3rem;
+    }
+    .navbar-links_logo {
+        scale: .9; 
+    }
+    
+
 }

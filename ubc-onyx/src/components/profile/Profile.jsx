@@ -4,8 +4,8 @@ function Profile(props) {
     return (
         <div className="combine">
         <div className="lane">{props.lane}</div>
-    <div className={props.char}>   
-         <h4 className="ign">{props.ign}</h4>  
+    <div className={props.char}>
+         <div className="ign">{props.ign}</div>  
          
          </div>
     </div>

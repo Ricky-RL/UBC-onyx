@@ -37,8 +37,20 @@ const App = () => {
 
         <div className="child">
           <Profile lane="Support"
-            char="profile_soraka"
+            char="profile_nautilus"
             ign="GorillA" />
+        </div>
+
+        <div className="child">
+          <Profile lane="Top"
+          char="profile_gragas"
+          ign="DOCTOR NEFARIO"/>
+        </div>
+
+        <div className="child">
+          <Profile lane="ADC"
+          char="profile_lucian"
+          ign="Shellybeans"/>
         </div>
       </div>
 
