@@ -53,6 +53,8 @@
     margin-left: 1rem;
     display: none;
     position: relative;
+    top: -10px;
+
 }
 
 .navbar-menu svg {
