@@ -52,7 +52,16 @@ const App = () => {
           char="profile_lucian"
           ign="Shellybeans"/>
         </div>
+
+        <div className="child">
+        <Profile lane="Coach"
+        char="profile_trundle"
+        ign="Julian"/>
+        </div>
       </div>
+
+
+
 
     </div>
   )
