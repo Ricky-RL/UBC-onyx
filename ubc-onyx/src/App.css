@@ -1,179 +1,145 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
+.App {
+  text-align: center;
 }
 
-a {
-  color: unset;
-  text-decoration: none;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.profiles {
-  /* height: 100vh; */
-  width: 100%;
-  flex-shrink: 0;
-
+.App-header {
+  min-height: 100vh;
   display: flex;
-  flex-wrap:wrap;
-  /* display:grid; */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction:row;
-  position: relative;
-  /* top: -200px; */
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.child {
-  /* flex: 100 100 20%;
-  margin: 5px; */
-  /* flex: 0 0 21%; */
+.App-link {
+  color: #61dafb;
+}
 
+.bg-img {
+  position: sticky;
+  z-index: 1;
+  /* background-position: center center; */
+
+  background-size: cover;
+  background-image: url(http://ns-webcams.its.sfu.ca/public/images/udn-current.jpg);
+  background-repeat: no-repeat;
+  overflow: scroll;
+
+}
+
+.fg-content {
+  text-align: center;
+  z-index: 2;
+}
+
+.TempBackground {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #B4B7D0;
+
+  padding-top: 45px;
+  padding-left: 6px;
+  border: 1px none;
+  border-radius: 60px;
+  box-shadow: 0px 0px 15px 4px #00000040;
+  cursor: pointer;
+  height: 120px;
+  position: fixed;
+
+  top: 75px;
+  width: 180px;
+
+  vertical-align: center;
+}
+
+.tempFont {
+  text-shadow: 2px 2px 2px #99AC27;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10px;
+
+  font-size: 60px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.weatherFont {
   
-}
-body {
-  /* background: var(--color-bg) */
+  vertical-align: middle;
 
-  background:-moz-radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
+  text-shadow: 1px 1px 1px #99AC27;
 
-  /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
 
-  /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight:400px;
+  margin-top: -10%;
+  /* left: 45%; */
+  /* position: center; */
 
-  /* ie 10+ */
-  background:-ms-radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
 
-  /* global 92%+ browsers support */
-  background:radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
 }
 
-.gradient__bg 
-{
-  /* ff 3.6+ */
+.road-conditions.btn-test {
+  background-color: #9BAE27; /* Green */
+  border-radius:  20px;
+
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px ;
+  border: 1px solid black;
+  width: 180px;
+
+
 }
 
+.about-sfu.btn-test {
+  background-color: #BE2945; /* red */
+  border-radius:  20px;
 
-.gradient__text {
-  background:var(--gradient-text);
-  background-clip: text;
-  -webkit-background-clop: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.section__padding {
-  padding: 4rem 6rem;
-}
-
-.section__margin {
-  margin: 4rem 6rem;
-}
-
-.shadow-drop-2-center {
-	-webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
- @-webkit-keyframes shadow-drop-2-center {
-  0% {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    -webkit-transform: translateZ(50px);
-            transform: translateZ(50px);
-    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-  }
-}
-@keyframes shadow-drop-2-center {
-  0% {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    -webkit-transform: translateZ(50px);
-            transform: translateZ(50px);
-    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-  }
-}
-
-.scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
- @-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-
-@media screen and (max-width: 700px) {
-  .section__padding {
-    padding: 4rem;
-  }
-  .section__margin {
-    margin: 4rem;
-  }
-
-  .profiles {
-    margin-top: -100px;
-  }
-
-  
-  
-}
-
-@media screen and (max-width: 550px) {
-  .section__padding {
-    padding: 4rem, 2rem;
-  }
-  .section__margin {
-    margin: 4rem, 2rem;
-  }
-  .child {
-    align-items: center;
-    margin-right: 130px;
-    width: 10%;
-    height: 33vh;
-
-    overflow:visible;
-    /* height: 250px; */
-    
-  }
-
-  .profiles {
-    margin-top: -100px;
-  }
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px ;
+  border: 1px solid black;
+  width: 180px;
 
 
 }
 
 
 
+.twitter-feed.btn-test {
+  background-color: #3cdfff; /* red */
+  border-radius:  20px;
+  width: 180px;
+
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px ;
+  border: 1px solid black;
+
+}
 
 
+
+
+.dimmed-fg-content {}
