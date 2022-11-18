@@ -3,7 +3,9 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
+// import { Link } from 'react-router-dom';
 
+import { Routes, Route, useNavigate, Router, BrowserRouter, Link, createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import logo from '../../assets/ubcea_logo.png';
 import './navbar.css';
@@ -12,22 +14,37 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-    <p><a href="#Home">Home</a></p>
-    <p><a href="#About">About</a></p>
+    
+    {/* <p><a href="#About">About</a></p> */}
     <p>
       <a href="https://www.ubcesports.ca/" target="_blank" rel="noreferrer">
         <Button className="btn">UBCEA</Button>
       </a>
     </p>
 
-    <Link to="../cta/CTA.jsx">
+    {/* <Link to="../cta/CTA.jsx">
 
       <Button className="btn">
         Road Conditions
       </Button>
       <br></br>
 
-    </Link>
+    </Link> */}
+    <div>
+    <BrowserRouter>
+    <Link to="/UBC-onyx">
+  <Button onClick = "refreshPage()" className="Home">
+  Home
+</Button>
+
+</Link>
+    <Link to="/UBC-onyx/About">
+  <Button onClick = "refreshPage()" className="About">
+  About 
+</Button>
+</Link>
+</BrowserRouter>
+</div>
 
     <p><a href="#Contact">Contact Us</a></p>
   </>

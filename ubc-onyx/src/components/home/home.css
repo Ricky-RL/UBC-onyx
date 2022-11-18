@@ -32,23 +32,7 @@
   
     
   }
-  body {
-    /* background: var(--color-bg) */
-  
-    background:-moz-radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
-  
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
-  
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
-  
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
-  
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 3% 25%, #002853 0%, #002853 0%, #040C18 100%);
-  }
+
   
   .gradient__bg 
   {
