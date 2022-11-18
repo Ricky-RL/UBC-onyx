@@ -3,6 +3,8 @@ import React from 'react'
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import { CTA, Brand, Navbar, Profile } from './components';
 import './App.css';
+import { BrowserRouter as Router, Switch, 
+  Route, Redirect,} from "react-router-dom";
 
 const App = () => {
   return (

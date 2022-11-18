@@ -84,6 +84,11 @@
     margin: 1 rem 0;
 }
 
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
 @media screen and (max-width: 1050px) {
     .navbar-links_container {
         display: none;
