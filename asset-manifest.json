@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/UBC-Onyx/static/css/main.b1cd12c7.css",
-    "main.js": "/UBC-Onyx/static/js/main.0a908f37.js",
-    "static/js/787.a741ab00.chunk.js": "/UBC-Onyx/static/js/787.a741ab00.chunk.js",
-    "static/media/jinx.jpg": "/UBC-Onyx/static/media/jinx.545039ab89c1b3f828e4.jpg",
-    "static/media/kayle.jpg": "/UBC-Onyx/static/media/kayle.81814b87c9fdedf9069a.jpg",
-    "static/media/gragas.jpg": "/UBC-Onyx/static/media/gragas.fb2def4f90f7ef592bb4.jpg",
-    "static/media/trundle.jpg": "/UBC-Onyx/static/media/trundle.de542e7adf3041d096eb.jpg",
-    "static/media/lucian.jpg": "/UBC-Onyx/static/media/lucian.3b680f62e38c4dce9d89.jpg",
-    "static/media/graves.jpg": "/UBC-Onyx/static/media/graves.1d5a347b230fb1c792e7.jpg",
-    "static/media/nautilus.jpg": "/UBC-Onyx/static/media/nautilus.9bb468c702ca33b0a47b.jpg",
-    "static/media/zoe.jpg": "/UBC-Onyx/static/media/zoe.3ea531f8b99c1ba180e1.jpg",
-    "static/media/ubcea_logo.png": "/UBC-Onyx/static/media/ubcea_logo.8e0c5fac4b7295b4d2a9.png",
-    "index.html": "/UBC-Onyx/index.html",
-    "main.b1cd12c7.css.map": "/UBC-Onyx/static/css/main.b1cd12c7.css.map",
-    "main.0a908f37.js.map": "/UBC-Onyx/static/js/main.0a908f37.js.map",
-    "787.a741ab00.chunk.js.map": "/UBC-Onyx/static/js/787.a741ab00.chunk.js.map"
+    "main.css": "/UBC-onyx/static/css/main.263f9cee.css",
+    "main.js": "/UBC-onyx/static/js/main.8e8070e1.js",
+    "static/js/787.a741ab00.chunk.js": "/UBC-onyx/static/js/787.a741ab00.chunk.js",
+    "static/media/jinx.jpg": "/UBC-onyx/static/media/jinx.545039ab89c1b3f828e4.jpg",
+    "static/media/kayle.jpg": "/UBC-onyx/static/media/kayle.81814b87c9fdedf9069a.jpg",
+    "static/media/gragas.jpg": "/UBC-onyx/static/media/gragas.fb2def4f90f7ef592bb4.jpg",
+    "static/media/trundle.jpg": "/UBC-onyx/static/media/trundle.de542e7adf3041d096eb.jpg",
+    "static/media/lucian.jpg": "/UBC-onyx/static/media/lucian.3b680f62e38c4dce9d89.jpg",
+    "static/media/graves.jpg": "/UBC-onyx/static/media/graves.1d5a347b230fb1c792e7.jpg",
+    "static/media/nautilus.jpg": "/UBC-onyx/static/media/nautilus.9bb468c702ca33b0a47b.jpg",
+    "static/media/zoe.jpg": "/UBC-onyx/static/media/zoe.3ea531f8b99c1ba180e1.jpg",
+    "static/media/ubcea_logo.png": "/UBC-onyx/static/media/ubcea_logo.8e0c5fac4b7295b4d2a9.png",
+    "index.html": "/UBC-onyx/index.html",
+    "main.263f9cee.css.map": "/UBC-onyx/static/css/main.263f9cee.css.map",
+    "main.8e8070e1.js.map": "/UBC-onyx/static/js/main.8e8070e1.js.map",
+    "787.a741ab00.chunk.js.map": "/UBC-onyx/static/js/787.a741ab00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1cd12c7.css",
-    "static/js/main.0a908f37.js"
+    "static/css/main.263f9cee.css",
+    "static/js/main.8e8070e1.js"
   ]
 }
