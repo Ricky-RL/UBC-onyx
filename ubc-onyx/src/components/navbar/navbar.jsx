@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 // import { Link } from 'react-router-dom';
 
-import { Routes, Route, useNavigate, Router, BrowserRouter, Link, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Routes, Route, useNavigate, Router, BrowserRouter, Link, createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom';
 
 import logo from '../../assets/ubcea_logo.png';
 import './navbar.css';
@@ -14,7 +14,7 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-    
+
     {/* <p><a href="#About">About</a></p> */}
     <p>
       <a href="https://www.ubcesports.ca/" target="_blank" rel="noreferrer">
@@ -31,22 +31,25 @@ const Menu = () => (
 
     </Link> */}
     <div>
-    <BrowserRouter>
-    <Link to="/UBC-onyx">
-  <Button onClick = "refreshPage()" className="Home">
-  Home
-</Button>
+      {/* <HashRouter> */}
+        <Link to="/">
+          <Button onClick="refreshPage()" className="Home">
+            Home
+          </Button>
 
-</Link>
-    <Link to="/UBC-onyx/About">
-  <Button onClick = "refreshPage()" className="About">
-  About 
+        </Link>
+        <Link to="/About">
+          <Button onClick="refreshPage()" className="About">
+            About
+          </Button>
+        </Link>
+        {/* <Link to="/Contact">
+  <Button onClick = "refreshPage()" className="Contact">
+  Contact Us 
 </Button>
-</Link>
-</BrowserRouter>
-</div>
-
-    <p><a href="#Contact">Contact Us</a></p>
+</Link> */}
+      {/* </HashRouter> */}
+    </div>
   </>
 )
 

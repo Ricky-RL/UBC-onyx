@@ -8,7 +8,7 @@ import Profile from "./../profile/Profile"
 import Navbar from "./../navbar/Navbar"
 
 
-import { Routes, Route, useNavigate, Router, BrowserRouter, Link, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Routes, Route, useNavigate, Router, BrowserRouter, Link, createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
 function Home () {
@@ -49,12 +49,14 @@ function Home () {
         <div className="child">
           <Profile lane="Top"
           char="profile_gragas"
-          ign="DOCTOR NEFARIO"/>
+          ign="U NO MOM"/>
         </div>
 
         <div className="child">
           <Profile lane="ADC"
-          char="profile_lucian"/>
+          char="profile_lucian"
+          ign="Shellybeans"/>
+          
           </div>
 
 
