@@ -1,16 +1,8 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
-// import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './../containers';
-// import { CTA, Brand, Navbar, Profile, About, Contact } from '..';
-
 import Profile from "./../profile/Profile"
-import Navbar from "./../navbar/Navbar"
-
-
-import { Routes, Route, useNavigate, Router, BrowserRouter, Link, createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
+
 function Home () {
   return (
     <div className="App">
