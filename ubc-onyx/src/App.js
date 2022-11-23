@@ -34,7 +34,7 @@ import Contact from "./components/contact/Contact";
 //   );
 // }
 
-function App(){
+const App = () => {
 
   return (
     <div className="App">

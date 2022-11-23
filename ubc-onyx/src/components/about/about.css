@@ -1,9 +1,32 @@
 .text {
-    color: white;
+    color: rgb(168, 156, 106);
+    text-align: center;
+    font-size: 4vh;
+}
+
+.item {
+    display: inline-block   
 }
 
 .banner {
-    background-image: url('../../assets/lol_banner.jpg');
-    width:100%;
-    height:100px;
+    /* margin-top: 80px; */
+    background-image: url('../../assets/scaled_lol_banner.jpg');
+    /* background-position: center center;*/
+    /* background-size: contain; 
+     background-size: cover;  */
+    display: inline-block;
+  
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+
+.slides {
+    width: 80vw;
+    margin-left: 10vw;
+    /* margin-left: 35%; */
+    display: block
+
 }
