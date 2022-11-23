@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UBC-onyx/static/css/main.40f101ca.css",
-    "main.js": "/UBC-onyx/static/js/main.3bebc72b.js",
+    "main.js": "/UBC-onyx/static/js/main.02930cfe.js",
     "static/js/787.a741ab00.chunk.js": "/UBC-onyx/static/js/787.a741ab00.chunk.js",
     "static/media/scaled_lol_banner.jpg": "/UBC-onyx/static/media/scaled_lol_banner.6b151d9baaa254d45549.jpg",
     "static/media/jinx.jpg": "/UBC-onyx/static/media/jinx.545039ab89c1b3f828e4.jpg",
@@ -9,8 +9,6 @@
     "static/media/gragas.jpg": "/UBC-onyx/static/media/gragas.fb2def4f90f7ef592bb4.jpg",
     "static/media/trundle.jpg": "/UBC-onyx/static/media/trundle.de542e7adf3041d096eb.jpg",
     "static/media/lucian.jpg": "/UBC-onyx/static/media/lucian.3b680f62e38c4dce9d89.jpg",
-    "static/media/lol_banner.jpg": "/UBC-onyx/static/media/lol_banner.3992446c4ffd3a0a6c7e.jpg",
-    "static/media/ubcea_log.png": "/UBC-onyx/static/media/ubcea_log.060f8d2c6e47d1ea91ab.png",
     "static/media/graves.jpg": "/UBC-onyx/static/media/graves.1d5a347b230fb1c792e7.jpg",
     "static/media/nautilus.jpg": "/UBC-onyx/static/media/nautilus.9bb468c702ca33b0a47b.jpg",
     "static/media/zoe.jpg": "/UBC-onyx/static/media/zoe.3ea531f8b99c1ba180e1.jpg",
@@ -21,11 +19,11 @@
     "static/media/slick.woff": "/UBC-onyx/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/UBC-onyx/index.html",
     "main.40f101ca.css.map": "/UBC-onyx/static/css/main.40f101ca.css.map",
-    "main.3bebc72b.js.map": "/UBC-onyx/static/js/main.3bebc72b.js.map",
+    "main.02930cfe.js.map": "/UBC-onyx/static/js/main.02930cfe.js.map",
     "787.a741ab00.chunk.js.map": "/UBC-onyx/static/js/787.a741ab00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40f101ca.css",
-    "static/js/main.3bebc72b.js"
+    "static/js/main.02930cfe.js"
   ]
 }
