@@ -39,7 +39,7 @@ function Home () {
         </div>
 
         <div className="child">
-          <Profile lane="Top"
+          <Profile lane="TOP"
           char="profile_gragas"
           ign="U NO MOM"/>
         </div>
