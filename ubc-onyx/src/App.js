@@ -44,7 +44,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
             <Route path="/About" element={<About/>}/>
-          {/* <Route path="/Contact" element={<Contact/>}/> */}
+          <Route path="/Contact" element={<Contact/>}/>
           {/* <Route path="/sfu_twitter_feed" element={<SFUTwitterFeed />} />
           <Route path="/road_conditions" element={<RoadCondition />} /> */}
           </Routes> 

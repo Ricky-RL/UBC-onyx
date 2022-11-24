@@ -9,6 +9,17 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const delay = 5000;
 
+const settings = {
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  className: 'notes-slider',
+  autoplay: true,
+  autoplaySpeed: 7000,
+};
+
 function About() {
   
   const [index, setIndex] = useState(0);
@@ -33,9 +44,11 @@ function About() {
 
   return (
     <div className="text">
-      We are UBC Onyx, a UBC Collegiate LOL team competing in NECC Champions Pacific
+      We are UBC Onyx, a UBC Collegiate LOL team competing in NECC Champions Pacific.
+
     
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    
+    <Carousel activeIndex={index} onSelect={handleSelect} controls={false}>
       <Carousel.Item>
         <img
         class="slides"

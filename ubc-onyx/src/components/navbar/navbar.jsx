@@ -43,12 +43,13 @@ const Menu = () => (
             About
           </Button>
         </Link>
-        {/* <Link to="/Contact">
-  <Button onClick = "refreshPage()" className="Contact">
-  Contact Us 
-</Button>
-</Link> */}
-      {/* </HashRouter> */}
+
+        <Link to="/Contact">
+          <Button onClick="refreshPage()" className="Contact">
+            Contact Us
+          </Button>
+        </Link>
+       
     </div>
   </>
 )
