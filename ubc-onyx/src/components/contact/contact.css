@@ -4,12 +4,36 @@
 }
 
 .format {
+    
+ 
+}
+
+.form {
     align-items:center;
-    text-align: center;    
+    text-align: center;   
 }
 
 .finished {
     text-align: center;
     color: white;
     font-size: 30px;
+}
+.textBorder {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.innerText {
+    text-align: left;
+}
+
+.bg {
+    color: red;
+    width:20vh;
+    height: 8vh;
+    border-radius: 10px;
+    min-width: 150px;
+    min-height: 50px;
 }

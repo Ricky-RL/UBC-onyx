@@ -2,7 +2,7 @@ import React, { useState} from 'react'
 import './contact.css';
 import { Text, StyleSheet } from 'react-native';
 
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/eb1292f0-7024-11ed-a377-655c67143ceccd D"; // TODO - fill on the later step
 
 // const Contact = () => {
 //   return (
@@ -47,17 +47,23 @@ const Contact = () => {
 
   return (
     <div className="format">
+            <div className="textBorder">
+
       <Text style={styles.titleText}>
 Applications
       </Text>
       <br></br>
+      <div className="innerText">
       <Text style={styles.innerText}>
-        Please fill out the form below if you would like to join UBC Onyx! <br></br>
-        Note that only UBC-V/UBC-O currently on a study or work term will be considered <br></br>
-        If you would like to apply to be a coach and/or manager, please let us know in the 'Peak Rank' text box
+        Please fill out the form below if you would like to join UBC Onyx! 
+        Note that only UBC-V/UBC-O currently on a study or work term will be considered. 
+        If you would like to apply to be a coach and/or manager, please let us know in the 'Peak Rank' text box.
 
 
         </Text>
+        </div>
+        </div>
+        <div className="form">
 
     <form
       action={FORM_ENDPOINT}
@@ -91,15 +97,18 @@ Applications
           required
         />
       </div>
-      <div className="mb-3 pt-0">
+      <div 
+      className="mb-3">
         <button
-          className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          className="bg"
           type="submit"
                   >
         Apply to UBC Onyx
         </button>
       </div>
     </form>
+    </div>
+
     </div>
   );
 };
