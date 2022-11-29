@@ -2,7 +2,7 @@ import React, { useState} from 'react'
 import './contact.css';
 import { Text, StyleSheet } from 'react-native';
 
-const FORM_ENDPOINT = "https://public.herotofu.com/v1/eb1292f0-7024-11ed-a377-655c67143ceccd D"; // TODO - fill on the later step
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/eb1292f0-7024-11ed-a377-655c67143ceccd D"; 
 
 // const Contact = () => {
 //   return (
